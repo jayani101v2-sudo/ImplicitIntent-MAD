@@ -11,6 +11,12 @@ Latest Version Android Studio
 
 ## ALGORITHM:
 
+    1. Start the application.
+    2. Enter a website URL in the input field.
+    3. Click the Open Website button.
+    4. Create an implicit intent using Intent.ACTION_VIEW.
+    5. Pass the URL to the intent using Uri.parse().
+    6. Start the intent to open the website in the browser.
 
 
 ## PROGRAM:
@@ -159,6 +165,8 @@ public class MainActivity extends AppCompatActivity {
 <img width="1471" height="972" alt="image" src="https://github.com/user-attachments/assets/02d22599-89ad-4f47-90c3-eeaf130cb6ba" />
 <img width="1638" height="976" alt="image" src="https://github.com/user-attachments/assets/16f810bd-e54b-4a74-aefa-804425796d7e" />
 
+<img width="187" height="415" alt="image" src="https://github.com/user-attachments/assets/4d2152f6-60ed-4d7f-9ee4-70eff0e15c8e" />
+<img width="190" height="417" alt="image" src="https://github.com/user-attachments/assets/ac140e8d-bd90-4860-910d-532b19072787" />
 
 
 ## RESULT
